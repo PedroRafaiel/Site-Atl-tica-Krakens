@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="acula.css">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="./imagens/krakensWhite.png" alt="Logo" class="logoCabeca">
+    <h1>Bem-Vindo Krakudo!</h1>
+  </header>
+
+  <div class="wrapper">
+    <aside id="sidebar">
+      <nav>  
+        <a href="inicio.html"><i class="fas fa-home"></i>Início</a>
+        <a href="tamanhos.html"><i class="fas fa-ruler"></i>Tamanhos</a>
+        <a href="modelos.html"><i class="fas fa-tshirt"></i>Modelos</a>
+        <a href="diretoria.html"><i class="fas fa-user-tie"></i>Diretoria</a> 
+        <a href="sobre.html"><i class="fas fa-comment"></i>Sobre</a> 
+      </nav>
+    </aside>
+
+    <main>
+      <p class="buy-now">
+        <a href="https://docs.google.com/forms/u/2/d/e/1FAIpQLSf8gvv3BFiu0hcDFKzniZjxI8Q0IMGsQ0Ab4BWRVn6uQAhsag/viewform?usp=send_form" class="link-button">
+          <img src="./posts/postVendaCamisas.png" alt="Compre Já!" class="postvenda">
+        </a>
+      </p>
+
+      <p class="buy-now">
+        <a href="./basquete.html" class="link-button">
+        <img src="./imagens/postBasquete.png" alt="peneira" class="postvenda">
+        </a>
+      </p>
+    </main>
+  </div>
+
+  <footer>Instagram: @krakensatletica</footer>
+
+  <script>
+    var sidebar = document.getElementById('sidebar');
+    var main = document.querySelector('main');
+
+    sidebar.addEventListener('mouseenter', function() {
+        sidebar.style.width = '200px';
+        main.style.marginLeft = '200px';
+    });
+
+    sidebar.addEventListener('mouseleave', function() {
+        sidebar.style.width = '0';
+        main.style.marginLeft = '0';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('imagens/fundoRoxo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;  
+}
+
+header{
+    padding: 20px;
+    background-color:#432b52;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    margin: 0;
+}
+
+footer{
+    padding: 20px;
+    background-color:#432b52;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+aside {
+    width: 0;
+    background: linear-gradient(45deg, #432b52, #734E8C,#9e6bc0);;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: width 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+nav a i {
+    margin-right: 8px;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:#734E8C;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color:#9e6bc0;
+}
+
+#toggle-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #734E8C;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.logoCabeca{
+    display: block;
+    width: 50px;
+    margin:auto;
+}
+
+.postvenda {
+    display: inline-block;
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+.link-button:hover {
+    filter: brightness(1.4);
+}
+
+.buy-now {
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper {
+    display: flex;
+}
+
+#sidebar {
+    width: 0;
+    background-color: #734E8C;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: width 0.3s;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    transition: margin-left 0.3s;
+    margin-left: 0;
+}
+
+.tabela{
+    display: block;
+    width: 1200px;
+    margin: auto;
+}
+
+.modelos{
+    display: block;
+    width: 1300px;
+    margin: auto;    
+}
+
+.sobre{
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+.textosobre{
+    display: block;
+    width: 1000px;
+    margin: auto;
+}
+
+.coordenador{
+    display: block;
+    width: 1000px;
+    margin: auto;
+}
